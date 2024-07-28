@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thank You</title>
-
-  <!-- Custom CSS link -->
-  <link rel="stylesheet" href="style.css">
-  
-  <!-- Google Font link -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            max-width: 600px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #f39c12;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-
 <body>
-  <main class="thank-you-page">
-    <div class="thank-you-container">
-      <h1 class="thank-you-title">Thank You!</h1>
-      <p class="thank-you-message">
-        We have received your message and appreciate you contacting us. We will get back to you as soon as possible.
-      </p>
-      <a href="index.html" class="home-link">Back to Home</a>
+    <div class="container">
+        <h1>Thank You!</h1>
+        <p>Your details have been successfully submitted. I appreciate your interest and will get back to you as soon as possible.</p>
+        <p>In the meantime, feel free to <a href="mailto:your-email@example.com">contact me via email</a> if you have any questions.</p>
     </div>
-  </main>
 </body>
-
 </html>

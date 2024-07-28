@@ -275,56 +275,6 @@ article.active {
 }
 
 /* Add any specific styles for thank-you page */
-/* General Body Style */
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4; /* Light background color */
-}
-
-/* Thank You Page Styles */
-.thank-you-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Full viewport height */
-  text-align: center;
-}
-
-.thank-you-container {
-  background-color: #ffffff; /* White background for the container */
-  border-radius: 8px;
-  padding: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
-}
-
-.thank-you-title {
-  font-size: 36px;
-  color: #333333; /* Dark color for the title */
-  margin-bottom: 20px;
-}
-
-.thank-you-message {
-  font-size: 18px;
-  color: #666666; /* Grey color for the message */
-  margin-bottom: 30px;
-}
-
-.home-link {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 16px;
-  text-decoration: none;
-  color: #ffffff; /* White text */
-  background-color: #007BFF; /* Primary color for the button */
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-.home-link:hover {
-  background-color: #0056b3; /* Darker shade on hover */
-}
 
 
 
