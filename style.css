@@ -145,6 +145,10 @@ body { background: var(--smoky-black); }
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
+.logo{
+  width: 100px;
+  cursor: pointer;
+}
 
 .sidebar,
 article {
